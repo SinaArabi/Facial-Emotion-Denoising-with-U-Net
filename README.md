@@ -41,10 +41,11 @@ The model's performance is evaluated using several metrics:
 - **Structural Similarity Index (SSIM)**: Measures the similarity between two images.
 
 ## Installation
-To run this project, you need the following dependencies Then you can use the notebook to train your model:
+To run this project, you need the following dependencies:
 
 ```bash
 pip install tensorflow numpy matplotlib scikit-image pandas
 ```
+Then you can use the notebook in order to train your model.
 ## Results
 The model achieves a PSNR of approximately 30 dB and an SSIM of 0.95 on the test set, indicating effective denoising capabilities.
